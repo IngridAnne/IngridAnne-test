@@ -1,0 +1,41 @@
+a{
+    text-align: center;
+    background-color: rgb(231, 241, 241);
+    text-decoration: none;
+    color: black;
+
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.website{
+    margin: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+.websites{
+    margin: 20px 10%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+img{
+    border-radius: 10px;
+    width: 300px;
+}
+#web-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.fa-heart{
+    padding: 3px;
+    background-color: rgb(145, 152, 228);
+    border-radius: 10px;
+}
+.websites .website a p{
+    font-size: 20px;
+}
+.websites .website a:hover{
+    box-shadow: rgb(129, 123, 123) 4px 3px 3px;
+}
